@@ -1,6 +1,6 @@
 {
   "name": "@sandjs/metric",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Metrics Inteface to metric services",
   "main": "lib/Metric.js",
   "scripts": {
