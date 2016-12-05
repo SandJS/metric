@@ -1,0 +1,34 @@
+{
+  "name": "sand-metric",
+  "version": "1.0.0",
+  "description": "Metrics Inteface to metric services",
+  "main": "lib/Metric.js",
+  "scripts": {
+    "lint": "node_modules/eslint/bin/eslint.js .",
+    "precommit": "npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandJS/metric.git"
+  },
+  "keywords": [
+    "Metrics",
+    "Sand"
+  ],
+  "author": "Kevin Smithson <ksmithson@sazze.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandJS/metric/issues"
+  },
+  "homepage": "https://github.com/SandJS/metric#readme",
+  "dependencies": {
+    "sand-grain": "^1.2.1"
+  },
+  "devDependencies": {
+    "@sandjs/eslint-config-sand": "^1.0.0",
+    "eslint": "^3.11.1",
+    "eslint-plugin-import": "^2.2.0",
+    "husky": "^0.11.9"
+  }
+}
