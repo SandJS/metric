@@ -1,5 +1,5 @@
 {
-  "name": "sand-metric",
+  "name": "@sandjs/metric",
   "version": "1.0.0",
   "description": "Metrics Inteface to metric services",
   "main": "lib/Metric.js",
